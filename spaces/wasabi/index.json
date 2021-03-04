@@ -1,0 +1,24 @@
+{
+  "name": "WasabiSwap",
+  "network": "250",
+  "symbol": "WASABIVOTE",
+  "skin": "wasabi",
+  "domain": "voting.swapwasabi.fi",
+  "strategies": [
+    {
+      "name": "erc20-balance-of",
+      "params": {
+        "address": "0x93e6Fc04091751Fefd0d9512A29Acf808C2B8F13",
+        "symbol": "sWASABI",
+        "decimals": 18
+      }
+    }
+  ],
+  "members": [
+    "0x51158e94Fb40334919e9eac06042d35c7158e131"
+  ],
+  "filters": {
+    "defaultTab": "core",
+    "minScore": 0
+  }
+}
